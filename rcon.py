@@ -2,7 +2,7 @@ import socket
 
 class Rcon():
     def __init__(self, ip: str, port: int, password: int, timeout: float = 0.7) -> None:
-        """Initialization of rcon connection
+        """Initialize rcon connection
 
         Args:
             ip (str): Server ip adress
