@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='q3ron-py',
-    version='v1.0.0',
+    version='1.0.0',
     url='https://github.com/hellyet/q3rcon-py',
     license='MIT',
     author='hellyet',
