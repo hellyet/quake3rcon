@@ -29,7 +29,7 @@ The RCON protocols are used to remotely control game servers, i.e. execute comma
 | __function__ | __args__                                                               | __returns__ | __description__                               |
 |--------------|------------------------------------------------------------------------|-------------| --------------------------------------------- |
 | \_\_init\_\_ | ip (*ip*), port (*int*), password (*str*), timeout (*float*, optional) | *None*      | *Initialize rcon connection*                  |
-| \_\_init\_\_ | *None*                                                                 | *None*      | *Close rcon connection on object destruction* |
+| \_\_del\_\_  | *None*                                                                 | *None*      | *Close rcon connection on object destruction* |
 | recv         | *None*                                                                 | *None*      | *Gets server response*                        |
 | send         | command (*str*)                                                        | *str*       | *Send rcon command*                           |
 
