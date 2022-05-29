@@ -36,8 +36,6 @@ The RCON protocols are used to remotely control game servers, i.e. execute comma
 ## How i can use this?
 To install run  
 `pip install q3rcon-py`  
-or  
-`pip install https://github.com/hellyet/q3rcon-py`
 
 ### This is an example using q3rcon-py in your code
 ```py
