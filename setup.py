@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='quake3rcon',
-    version='1.0.1',
+    version='1.0.0',
     url='https://github.com/hellyet/quake3rcon',
     license='MIT',
     author='hellyet',
