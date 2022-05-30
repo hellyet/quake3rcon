@@ -37,7 +37,7 @@ The RCON protocols are used to remotely control game servers, i.e. execute comma
 To install run  
 `pip install quake3rcon`  
 
-### This is an example using q3rcon-py in your code
+### This is an example using quake3rcon in your code
 ```py
 from quake3rcon.rcon import Rcon
 
