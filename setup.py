@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='q3rcon-py',
+    name='quake3rcon',
     version='1.0.1',
-    url='https://github.com/hellyet/q3rcon-py',
+    url='https://github.com/hellyet/quake3rcon',
     license='MIT',
     author='hellyet',
     author_email='leonid.tosterovski@gmail.com',

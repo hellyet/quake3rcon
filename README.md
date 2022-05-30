@@ -1,4 +1,4 @@
-# q3rcon-py
+# quake3rcon
 A tiny library for using Quake 3's RCON protocol feature for some game servers like [FiveM](https://fivem.net/).
 The RCON protocols are used to remotely control game servers, i.e. execute commands on a game server and receive the respective results.
 
@@ -41,7 +41,7 @@ or
 
 ### This is an example using q3rcon-py in your code
 ```py
-from q3rcon-py import Rcon
+from quake3rcon.rcon import Rcon
 
 rcon = Rcon('192.168.0.1', 30120, 'yourstrongpassword') # Connecting to RCON
 
